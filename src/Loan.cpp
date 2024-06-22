@@ -59,7 +59,7 @@ void LoanManagement::updateLoan() {
             return;
         }
     }
-    std::cout << "Loan not found." << std::endl;
+    std::cout << "Loan not found" << std::endl;
 }
 
 std::vector<Loan> LoanManagement::loadLoans() {
